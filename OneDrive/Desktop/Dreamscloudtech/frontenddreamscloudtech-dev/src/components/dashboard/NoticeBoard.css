@@ -1,0 +1,88 @@
+/* Container for the Notice Board
+.noticeboard-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+
+.noticeboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.noticeboard-header h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.btn-add {
+  background-color: #007bff;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: #0056b3;
+}
+
+
+.notice-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.notice-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notice-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.notice-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.notice-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+.notice-time {
+  font-size: 0.9rem;
+  color: #999;
+  text-align: right;
+}
+
+
+.no-notices {
+  text-align: center;
+  color: red;
+  font-size: 1rem;
+  margin: 20px 0;
+} */

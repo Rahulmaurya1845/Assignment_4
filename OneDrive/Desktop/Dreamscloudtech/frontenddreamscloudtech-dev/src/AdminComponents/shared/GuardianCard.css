@@ -1,0 +1,44 @@
+.guardian-card {
+    position: relative;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    color: #333;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.delete-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 16px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-label {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 4px;
+}
+
+.info-value {
+    color: #777;
+    font-size: 14px;
+}

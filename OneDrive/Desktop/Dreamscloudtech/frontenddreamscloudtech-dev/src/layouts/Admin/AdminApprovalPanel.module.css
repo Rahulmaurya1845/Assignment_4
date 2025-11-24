@@ -1,0 +1,79 @@
+.adminApprovalPanelContainer {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.panelHeader {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.8rem;
+    text-align: center;
+    /* color: #2ad76c; */
+        color: #4fb1f6;
+}
+
+.requestList {
+    list-style: none;
+    padding: 0;
+}
+
+.requestItem {
+    background: #ffffff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border-left: 4px solid #4fb1f6;
+}
+
+.requestDetails {
+    margin-bottom: 1rem;
+}
+
+.statusLabel {
+    font-weight: bold;
+}
+
+.requestActions {
+    display: flex;
+    gap: 1rem;
+}
+
+.approveButton, .rejectButton {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.approveButton {
+    background-color: #28a745;
+    color: white;
+}
+
+.rejectButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+.approveButton:hover {
+    background-color: #218838;
+}
+
+.rejectButton:hover {
+    background-color: #c82333;
+}
+
+.pending {
+    color: #f0ad4e;
+}
+
+.approved {
+    color: #28a745;
+}
+
+.rejected {
+    color: #dc3545;
+}

@@ -1,0 +1,137 @@
+
+/* Container for the Events Section */
+.event-container {
+    width: 380px !important;
+    max-width: 380px !important;
+    margin: 0px auto !important;
+    padding: 20px !important;
+    /* background-color: #DAEDFF; */
+    background-color: #EEF7FF !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07) !important;
+   font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+/* Header for the Events Section */
+.event-header {
+    font-size: 1.4rem !important;
+    font-weight: 500 !important;
+    color: #333 !important;
+    margin-bottom: 20px !important;
+    text-align: center !important;
+    border-bottom: 2px solid #007bff !important;
+    padding-bottom: 10px !important;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+/* Event Card */
+.event-card {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    padding: 15px !important;
+    margin-bottom: 15px !important;
+    border: 1px solid #e3e6f0 !important;
+    border-radius: 8px !important;
+    background: #ffffff !important;
+    /* background: #EEF7FF; */
+    transition: box-shadow 0.3s ease, transform 0.3s ease !important;
+}
+
+.event-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15) !important;
+    transform: translateY(-3px) !important;
+}
+
+/* Event Details on the Left */
+.event-details {
+    flex: 1 !important;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+.event-title {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: #333 !important;
+    margin: 0 0 6px !important;
+    font-family: "Poppins", sans-serif;
+    /* font-size: 500; */
+}
+
+.event-description {
+    font-size: 0.8rem !important;
+    color: #000 !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+    font-family: "Poppins", sans-serif;
+    /* font-size: 500; */
+}
+
+/* Event Time on the Right */
+.event-time {
+    font-size: 0.9rem !important;
+    color: #007bff !important;
+    font-weight: 600 !important;
+    margin-left: 20px !important;
+    white-space: nowrap !important;
+    align-self: center !important;
+    font-family: "Poppins", sans-serif;
+    /* font-size: 500; */
+}
+
+@media (max-width: 768px) {
+  .event-container {
+    width: 90% !important;
+    padding: 15px !important;
+  }
+
+  .event-header {
+    font-size: 1.2rem !important;
+  }
+
+  .event-card {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 12px !important;
+  }
+
+  .event-time {
+    margin-left: 0 !important;
+    margin-top: 8px !important;
+    align-self: flex-start !important;
+    font-size: 0.85rem !important;
+  }
+}
+
+/* Mobile view (up to 480px wide) */
+@media (max-width: 480px) {
+  .event-container {
+    width: 100% !important;
+    padding: 10px !important;
+    border-radius: 8px !important;
+  }
+
+  .event-header {
+    font-size: 1.1rem !important;
+  }
+
+  .event-card {
+    padding: 10px !important;
+  }
+
+  .event-title {
+    font-size: 0.95rem !important;
+  }
+
+  .event-description {
+    font-size: 0.75rem !important;
+  }
+
+  .event-time {
+    font-size: 0.8rem !important;
+    margin-top: 6px !important;
+  }
+}

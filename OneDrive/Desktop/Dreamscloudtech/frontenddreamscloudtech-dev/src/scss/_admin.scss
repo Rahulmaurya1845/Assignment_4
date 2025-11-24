@@ -1,0 +1,236 @@
+.dashboard__card {
+  background-color: #eef7ff;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+  color: $black !important;
+  border-radius: 10px;
+  width: 110px;
+  margin-right: 20px;
+  text-align: center; // Center align text
+  h4 {
+    opacity: 0.4;
+  }
+  .card__detailssss {
+    width: 100%; // Ensure full-width details for consistent alignment
+    h4 {
+      font-size: 15px;
+    }
+    .card__title {
+      margin-top: 15px; // Aligns with Card2
+      margin-bottom: -10px;
+      // opacity: 0.5;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+    }
+    .card__enter {
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      font-weight: bold !important;
+    }
+    .card__content {
+      display: flex;
+      align-items: center;
+
+      // padding: 10px; // Add some padding for spacing
+      margin-top: 15px;
+    }
+    .card__content2 {
+      display: flex;
+      align-items: center;
+
+      // padding: 10px; // Add some padding for spacing
+      margin-top: 15px;
+      margin-right: 10px;
+    }
+
+    .card__icon {
+      background-color: #eef7ff;
+      border-radius: 0%;
+      // padding: 10px;
+      margin-right: 10px;
+      margin-left: 22px;
+      margin-bottom: -7px;
+    }
+
+    .card__icon2 {
+      background-color: #eef7ff;
+      border-radius: 0%;
+      // padding: 10px;
+      margin-right: 10px;
+      margin-left: 20px;
+      margin-bottom: -7px;
+    }
+    .card__icon3 {
+      background-color: #eef7ff;
+      border-radius: 0%;
+      // padding: 10px;
+      size: 300px;
+      margin-right: 10px;
+      margin-left: 20px;
+      margin-bottom: -7px;
+    }
+    .card__digits {
+      font-weight: "bold !important";
+      font-size: 1.4em !important;
+      font-family: "Times New Roman", Times, serif !important;
+      // margin-left: 10px;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+.dashboard__card2 {
+  background-color: #eef7ff;
+  padding: 0px;
+  display: flex;
+  flex-direction: column; // Stack items vertically
+  align-items: center;
+  // margin-bottom: 30px;
+  margin-top: -30px;
+  color: $black !important;
+  width: 110px;
+  border-radius: 10px;
+  text-align: center; // Center align text
+
+  .card__icon {
+    background-color: #eef7ff;
+    border-radius: 50%;
+    padding: 0px;
+    margin-top: 2px;
+    margin-bottom: 10px; // Space around icon
+  }
+
+  .card__detailss {
+    margin-left: 0px;
+    margin-top: 15px;
+
+    .card__title {
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+    }
+  }
+  .card__detailsss {
+    margin-left: 0px;
+    margin-bottom: 2px;
+    font-weight: bold !important;
+  }
+  h4 {
+    opacity: 0.5;
+    font-size: 15px;
+  }
+  small {
+    opacity: 0.9;
+  }
+
+  .card__details {
+    .card__title {
+      font-weight: 800;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+      margin-top: 20px; // Space below the title
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .card__enter {
+      // opacity: 0.8;
+      // font-size: 1em;
+      margin-top: 10px;
+      margin-bottom: 10px; // Space above 'Enter' text;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+.roleText {
+  color: #000;
+  font-weight: 400 !important;
+  font-family: "Poppins";
+}
+
+* {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500 !important;
+}
+
+.activities__container {
+  height: 500px;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: hidden;
+  }
+}
+.dashboard__attendance {
+  height: 50vh;
+}
+.notices {
+  max-height: 500;
+  min-height: 100%;
+  overflow: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .notice {
+    padding: 20px;
+
+    .chip__date {
+      background-color: $darkBlue;
+      color: $white !important;
+    }
+  }
+}
+
+.attendances {
+  .color__box {
+    width: 100px;
+    height: 20px;
+  }
+  .male__color {
+    background: #ff942b !important;
+  }
+  .female__color {
+    background-color: #8ec7ff;
+  }
+  .male__colorr {
+    background: #f34234 !important;
+  }
+  .female__colorr {
+    background-color: #2094e6;
+  }
+}
+
+.fees {
+  font-size: 1em;
+
+  .icon {
+    width: 0.8em;
+    height: 0.8em;
+    color: red;
+    font-weight: 800;
+  }
+}
+
+.form__sender {
+  padding: 0 !important;
+
+  .header {
+    background-color: $orange;
+    border-top-left-radius: "5%";
+    border-top-right-radius: "5%";
+    padding: 10px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+}

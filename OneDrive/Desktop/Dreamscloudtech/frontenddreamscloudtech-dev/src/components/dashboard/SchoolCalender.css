@@ -1,0 +1,91 @@
+Change the grey background colors
+
+.rbc-off-range-bg {
+  background: #f8f9fa !important; /* Light background for dates not in current month */
+}
+
+.rbc-today {
+  background-color: #e3f2fd !important; /* Light blue background for today */
+}
+
+.rbc-header {
+  background-color: #ffffff !important; /* White background for headers */
+}
+
+.rbc-day-bg + .rbc-today {
+  background-color: #e3f2fd !important; /* Ensures today's cell stays light blue */
+}
+
+/* Optional: Style the month view grid lines */
+.rbc-month-view {
+  border: 1px solid #dee2e6 !important;
+}
+.rbc-week-view {
+  border: 1px solid #dee2e6 !important;
+}
+
+.rbc-day-bg {
+  background-color: white !important; /* White background for regular days */
+}
+
+/* Style for month header and all calendar text */
+.rbc-calendar {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Style for the toolbar (month/week/day selector) */
+.rbc-toolbar {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.rbc-toolbar button {
+  font-family: 'Poppins', sans-serif !important;
+  color: #333 !important;
+  background-color: white !important;
+  border: 1px solid #dee2e6 !important;
+}
+
+/* Selected button (like "Month" when in month view) */
+.rbc-toolbar button.rbc-active {
+  background-color: #007bff !important;
+  color: white !important;
+  border-color: #007bff !important;
+}
+
+.rbc-toolbar button:hover {
+  background-color: #f8f9fa !important;
+  color: #333 !important;
+}
+
+.rbc-toolbar button.rbc-active:hover {
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+/* Header cells (day names) */
+.rbc-header {
+  font-family: 'Poppins', sans-serif !important;
+  padding: 8px 3px !important;
+  font-weight: 500 !important;
+}
+
+/* Date cells */
+.rbc-date-cell {
+  font-family: 'Poppins', sans-serif !important;
+  padding: 4px !important;
+}
+.rbc-event {
+  background-color: #1fa2f4 !important; 
+  color: white !important; 
+  width: 80% !important; 
+  margin: 0 auto !important;
+}
+
+
+.rbc-off-range-bg {
+  background: #f5f8ff !important; 
+}
+
+.rbc-today {
+  background-color: #eef7ff !important;
+}

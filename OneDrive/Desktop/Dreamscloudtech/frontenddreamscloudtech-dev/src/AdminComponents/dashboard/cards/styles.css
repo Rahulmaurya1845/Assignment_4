@@ -1,0 +1,225 @@
+.attendance-container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #115795; */
+  font-family: "Poppins", sans-serif !important; /* Apply Poppins globally within this container */    
+  font-weight: 600 !important; /* Forcefully set font weight to 600 */
+}
+
+
+.attendance-container * {
+  font-weight: 600 !important; /* Apply to all nested elements */
+}
+
+.attendance-card {
+  width: 385px !important;
+  background-color: #eef7ff !important;
+  border-radius: 12px !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1) !important;
+  padding: 20px !important;
+  height: 200px !important;
+  font-family: "Poppins", sans-serif !important; /* Ensure Poppins for the card */
+  
+}
+
+.attendance-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  font-family: "Poppins", sans-serif !important; /* Apply Poppins to header */
+}
+
+.attendance-title {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  font-family: "Poppins", sans-serif !important; /* Ensure Poppins for title */
+  margin-bottom: 15px;
+}
+
+.legend-and-toggle {
+  display: flex !important;
+  align-items: center !important;
+  font-family: "Poppins", sans-serif !important; /* Ensure Poppins */
+}
+
+.legend {
+  display: flex !important;
+  font-family: "Poppins", sans-serif !important; /* Apply Poppins to legend */
+  margin-bottom: 14px;
+}
+
+.legend-item {
+  display: flex !important;
+  align-items: center !important;
+  margin-left: 10px !important;
+  font-size: 10px !important;
+  font-weight: 800 !important;
+  font-family: "Poppins", sans-serif !important; /* Apply Poppins to legend items */
+}
+
+.legend-color {
+  width: 12px !important;
+  height: 12px !important;
+  margin-right: 5px !important;
+  border-radius: 3px !important;
+}
+
+.section-a {
+  background-color: #8ec7ff !important;
+}
+
+.section-b {
+  background-color: #ff942b !important;
+}
+
+.toggle-btn {
+  background: none !important;
+  border: none !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  color: #888 !important;
+  margin-left: 10px !important;
+  cursor: pointer !important;
+  font-family: "Poppins", sans-serif !important; /* Apply Poppins to toggle button */
+  /* margin-bottom: 10px; */
+}
+
+.chart-container {
+  position: relative !important;
+  padding: 15px !important;
+  margin-left: 0px !important;
+  background-color: #eef7ff !important;
+  border-radius: 8px !important;
+  text-align: center !important;
+  font-family: "Poppins", sans-serif; /* Ensure Poppins for chart container */
+   margin-top: -14px;
+}
+
+.attendance-svg {
+  display: block !important;
+  margin: auto !important;
+  margin-left: px !important;
+  padding: 2px !important;
+  
+}
+
+.y-axis-label {
+  position: absolute !important;
+  top: 40% !important;
+  left: -25px !important;
+  transform: rotate(-90deg) !important;
+  font-size: 12px !important;
+  font-weight: bolder !important;
+  color: #666 !important;
+  font-family: "Poppins", sans-serif !important; /* Apply Poppins to Y-axis label */
+}
+@media (max-width: 1024px) {
+  .attendance-card {
+    width: 330px !important;
+    height: auto !important;
+    padding: 16px !important;
+  }
+
+  .attendance-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+  }
+
+  .legend {
+    margin-bottom: 8px !important;
+  }
+
+  .chart-container {
+    padding: 10px !important;
+    margin-top: 0 !important;
+  }
+
+  .attendance-title {
+    font-size: 14px !important;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .attendance-card {
+    width: 90% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    padding: 14px !important;
+  }
+
+  .attendance-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 6px !important;
+  }
+
+  .legend-and-toggle {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+  }
+
+  .legend-item {
+    font-size: 9px !important;
+    margin-left: 5px !important;
+  }
+
+  .toggle-btn {
+    font-size: 18px !important;
+  }
+
+  .chart-container {
+    padding: 12px !important;
+    text-align: center !important;
+  }
+
+  .attendance-svg {
+    width: 100% !important;
+  }
+
+  .attendance-title {
+    font-size: 13px !important;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .attendance-card {
+    width: 95% !important;
+    padding: 12px !important;
+  }
+
+  .attendance-header {
+    gap: 4px !important;
+  }
+
+  .legend {
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+  }
+
+  .legend-item {
+    margin-left: 8px !important;
+    font-size: 8.5px !important;
+  }
+
+  .attendance-title {
+    font-size: 12.5px !important;
+  }
+
+  .toggle-btn {
+    font-size: 16px !important;
+  }
+
+  .chart-container {
+    padding: 10px !important;
+  }
+
+  .attendance-svg {
+    width: 100% !important;
+  }
+}

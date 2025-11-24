@@ -1,0 +1,359 @@
+.nav__brand {
+  background-color: white !important;
+  display: flex;
+  justify-content: space-between !important;
+
+  &:hover {
+    background-color: white !important; // Change hover color to white
+  }
+}
+
+.sidebar__main {
+  background-color: #eef7ff !important;
+
+  a {
+    color: rgb(91, 91, 91) !important; // Ensure links are visible
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600 !important;
+    // font-size: 0.7rem;
+    // overflow: hidden; /* Disable both horizontal and vertical scrolling */
+    // white-space: nowrap; /* Prevent text wrapping */
+
+    &:hover {
+      //background-color: #77e4ff !important; // Change hover color to orange
+      background-color: #8ec7ff !important;
+    }
+  }
+}
+
+.sidebar__minimizer {
+  background-color: transparent !important;
+}
+
+.sidebarIcon {
+  color: rgb(91, 91, 91) !important;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+.nav__search {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  height: 40px; /* Decreased height for a sleeker look */
+
+  .input-container {
+    position: relative;
+    flex-grow: 1;
+    height: 100%;
+
+    .icon {
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      // color: #0fb3dc; /* Icon color */
+      // color: #2ad76c; /* Icon color */ #2094e6
+      color: #2094e6;
+      width: 20px;
+      height: 20px;
+    }
+
+    input {
+      border: 1px solid #2094e6; /* Border around the input */
+      border-right: none; /* No border on the right side */
+      font-size: 1em;
+      padding: 0 10px 0 40px; /* Padding left to make space for the icon */
+      height: 100%;
+      width: 115%;
+      border-radius: 5px 0 0 5px; /* Rounded corners on the left */
+      // background-color: #f7f9fc; /* Baby pink background color */
+      background-color: #ffffff;
+      color: #000; /* Text color inside the input */
+    }
+  }
+
+  .search-button {
+    background-color: #1fa2f4; /* Button background color */
+    color: white; /* Button text color */
+    border: 1px solid #4fb1f0; /* Border around the button */
+    border-left: none; /* No border on the left side */
+    padding: 0 15px; /* Padding inside the button */
+    margin-left: 28px;
+    font-size: 1em;
+    height: 100%;
+    border-radius: 0 5px 5px 0; /* Rounded corners on the right */
+    cursor: pointer;
+    font-family: "Poppins";
+  }
+}
+
+.form-error {
+  display: block !important;
+}
+
+.user__avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px; /* Adds right margin to the whole div */
+
+  h5 {
+    margin-left: 25px; /* Adds gap between Avatar and h6 */
+  }
+
+  span {
+    font-size: smaller;
+  }
+}
+
+.content__container {
+  background-color: $white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.lg__btn {
+  padding: 10px 30px !important;
+}
+
+.sm__btn {
+  padding: 5px 15px !important;
+}
+
+.orange__btn {
+  background-color: $orange !important;
+  color: $white !important;
+  // &:hover {
+  //   background-color: $darkBlue !important;
+  // }
+}
+
+.blue__btn {
+  // background-color: $darkBlue !important;
+  // background-color: #fa6767 !important;
+  background-color: $orange !important;
+  //background-color: # !important;
+  color: $white !important;
+  &:hover {
+    //background-color: $orange !important;
+    // background-color: #fa6767 !important;
+    background-color: $orange !important;
+  }
+}
+
+.bluee__btn {
+  // background-color: $darkBlue !important;
+  // background-color: #fa6767 !important;
+  background-color: #4fb1fe !important;
+  //background-color: # !important;
+  color: $white !important;
+  &:hover {
+    //background-color: $orange !important;
+    // background-color: #fa6767 !important;
+    background-color: #4fb1fe !important;
+  }
+}
+.bblue__btn {
+  // background-color: $darkBlue !important;
+  // background-color: #fa6767 !important;
+  background-color: #007bff !important;
+  //background-color: # !important;
+  color: $white !important;
+  &:hover {
+    //background-color: $orange !important;
+    // background-color: #fa6767 !important;
+    background-color: #007bff !important;
+  }
+}
+.bluee__btn {
+  // background-color: $darkBlue !important;
+  // background-color: #fa6767 !important;
+  background-color: #009dff !important;
+  //background-color: # !important;
+  color: $white !important;
+  &:hover {
+    //background-color: $orange !important;
+    // background-color: #fa6767 !important;
+    background-color: #009dff !important;
+  }
+}
+
+.lred__btn {
+  // background-color: $darkBlue !important;
+  // background-color: #fa6767 !important;
+  background-color: #fe4949 !important;
+  //background-color: # !important;
+  color: $white !important;
+  &:hover {
+    //background-color: $orange !important;
+    // background-color: #fa6767 !important;
+    background-color: #fe4949 !important;
+  }
+}
+
+.red__btn {
+  // background-color: $darkBlue !important;
+  // background-color: #fa6767 !important;
+  background-color: red !important;
+  color: $white !important;
+  &:hover {
+    // background-color: #fa6767 !important;
+    background-color: red !important;
+  }
+}
+.pink__btn {
+  // background-color: $darkBlue !important;
+  // background-color: #fa6767 !important;
+  background-color: #f50057 !important;
+  color: $white !important;
+  &:hover {
+    // background-color: #fa6767 !important;
+    background-color: #f50057 !important;
+  }
+}
+
+.green__btn {
+  // background-color: $darkBlue !important;
+  background-color: #42d29d !important;
+  color: $white !important;
+  &:hover {
+    background-color: #42d29d !important;
+  }
+}
+
+.ggreen__btn {
+  // background-color: $darkBlue !important;
+  background-color: #05e278 !important;
+  color: $white !important;
+  &:hover {
+    background-color: #42d29d !important;
+  }
+}
+
+.blu__btn {
+  // background-color: $darkBlue !important;
+  background-color: #8ec7ff !important;
+  color: $white !important;
+  &:hover {
+    background-color: #8ec7ff !important;
+  }
+}
+
+.yellow__btn {
+  // background-color: $darkBlue !important;
+  background-color: rgb(255, 105, 130) !important;
+  color: $white !important;
+  &:hover {
+    background-color: rgb(255, 105, 130) !important;
+  }
+}
+.greenn__btn {
+  // background-color: $darkBlue !important;
+  background-color: #2ad76c !important;
+  color: $white !important;
+  &:hover {
+    background-color: #2ad76c !important;
+  }
+}
+
+.link,
+a {
+  text-decoration: none;
+  &:hover {
+    color: $darkBlue;
+    text-decoration: none;
+  }
+  .icon {
+    height: 30px !important;
+    width: 30px !important;
+  }
+}
+
+.large__avatar {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.blue_bg {
+  background-color: $darkBlue !important;
+  color: aliceblue !important;
+}
+
+.blue_color {
+  color: $darkBlue !important;
+}
+
+.orange_bg {
+  background-color: $orange !important;
+}
+
+.orange_color {
+  color: $orange !important;
+}
+
+.icon .icon {
+  font-size: 5px !important;
+  height: 5px !important;
+  // border: 1px solid red;
+}
+
+.backgroundColor {
+  background-color: $background;
+}
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #section-to-print,
+  #section-to-print * {
+    visibility: visible;
+  }
+  #section-to-print {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+  }
+}
+
+ul li {
+  list-style: none;
+}
+
+
+.nav__search {
+  position: relative; 
+}
+
+//Search dropdown Changes
+.search__dropdown {
+  position: absolute;
+  top: 50%; 
+  left: 5%;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  max-height: 300px; 
+  overflow-y: auto; 
+  width: fit-content; 
+}
+
+.search__result-item {
+  display: block; 
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.search__result-item:hover {
+  background-color: #f1f1f1; 
+}
