@@ -1,0 +1,92 @@
+.teacherRequestFormContainer {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.formHeader {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.8rem;
+    color: #4fb1f6;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #2a2a2a;
+}
+
+.input,
+.textarea {
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+}
+
+.textarea {
+    resize: vertical;
+}
+
+.submitButton {
+    padding: 0.5rem;
+    background-color: #2ad76c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 170px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+    background-color: #2ad76c;
+}
+
+.message {
+    color: green;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.subHeader {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.5rem;
+    color: #4fb1f6;
+    margin-top: 2rem;
+}
+
+.requestList {
+    list-style: none;
+    padding: 0;
+}
+
+.requestItem {
+    background: #f9f9f9;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border-left: 4px solid #4fb1f6;
+}
+
+.requestDetails {
+    margin-bottom: 1rem;
+}

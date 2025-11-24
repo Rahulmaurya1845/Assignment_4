@@ -1,0 +1,100 @@
+/* 
+.noticeboard-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.noticeboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.noticeboard-header h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.btn-add {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.notice-card {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.notice-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.notice-details {
+  flex-grow: 1;
+}
+
+.notice-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 5px 0;
+}
+
+.notice-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.notice-date {
+  font-size: 0.8rem;
+  color: #999;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.notice-meta small {
+  color: #555;
+  font-size: 0.8rem;
+  display: block;
+}
+
+.notice-actions .btn-edit {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.notice-more {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.no-notices {
+  text-align: center;
+  color: red;
+} */
+
+

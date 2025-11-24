@@ -1,0 +1,228 @@
+.stats-container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e9f4ff; */
+}
+
+.stats-card {
+  width: 380px !important;
+  /* background-color: #DAEDFF; */
+  background-color: #EEF7FF !important;
+  border-radius: 20px !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1) !important;
+  padding: 16px !important;
+  height: 200px !important;
+  font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+.stats-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin: 6px 0 !important;
+  font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+.stats-title {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin-left: 5px !important;
+   font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+.stats-date {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  margin-right: 15px !important;
+  font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+.stats-row {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin: 5px 0 !important;
+  padding: 28px !important;
+  /* background-color: #eef7ff; */
+    background-color: #ffffff !important;
+  border-radius: 10px !important;
+  height: 60px !important;
+  font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+.stats-section {
+  flex: 1 !important;
+  /* margin-right: -200px; */
+  font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+.stats-section-title {
+  font-size: 13px !important;
+  font-weight: bold !important;
+  margin: 8px 0 3px 8px !important;
+  font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+.stats-subtitle {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  margin-left: 10px !important;
+  margin-top: 3px !important;
+  font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+.stats-value-row {
+  display: flex !important;
+  align-items: center !important;
+  margin-left: 8px !important;
+  font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+.stats-arrow-icon {
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 5px !important;
+  margin-top: 3px !important;
+  font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+.stats-amount {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  margin-left: 5px !important;
+  margin-top: 3px !important;
+  font-family: "Poppins", sans-serif !important;
+ 
+}
+
+.stats-amount2 {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  margin-left: 20px !important;
+  margin-top: 5px !important;
+  font-family: "Poppins", sans-serif !important;
+   
+}
+
+.stats-percentage {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+
+.stats-divider {
+  height: 0 !important;
+  margin: 0 !important;
+  font-family: "Poppins", sans-serif !important;
+    font-size: 500 !important;
+}
+@media (max-width: 1024px) {
+  .stats-card {
+    width: 320px !important;
+    height: auto !important;
+    padding: 14px !important;
+  }
+
+  .stats-row {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    height: auto !important;
+    padding: 15px !important;
+    gap: 8px !important;
+  }
+
+  .stats-section {
+    width: 100% !important;
+  }
+
+  .stats-title {
+    font-size: 15px !important;
+  }
+
+  .stats-date {
+    font-size: 12px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .stats-card {
+    width: 90% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    padding: 12px !important;
+  }
+
+  .stats-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 4px !important;
+  }
+
+  .stats-row {
+    flex-direction: column !important;
+    gap: 10px !important;
+    padding: 12px !important;
+  }
+
+  .stats-section-title {
+    font-size: 12px !important;
+  }
+
+  .stats-amount,
+  .stats-amount2 {
+    font-size: 13px !important;
+  }
+
+  .stats-subtitle {
+    font-size: 11px !important;
+  }
+
+  .stats-arrow-icon {
+    width: 18px !important;
+    height: 18px !important;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .stats-card {
+    width: 95% !important;
+    padding: 10px !important;
+  }
+
+  .stats-title {
+    font-size: 14px !important;
+  }
+
+  .stats-date {
+    font-size: 11px !important;
+  }
+
+  .stats-amount,
+  .stats-amount2 {
+    font-size: 12px !important;
+  }
+
+  .stats-section-title {
+    font-size: 11px !important;
+  }
+
+  .stats-row {
+    padding: 10px !important;
+    gap: 8px !important;
+  }
+}

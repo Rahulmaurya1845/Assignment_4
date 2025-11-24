@@ -1,0 +1,46 @@
+
+/* Apply Poppins as the default font-family for the entire project */
+body, html, #root {
+    font-family: 'Poppins', sans-serif;
+}
+
+.notice-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+  &:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.notice-title {
+  color: #2c3e50;
+}
+
+.notice-description {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.notice-meta h6 {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #7f8c8d;
+}
+
+.unique-chip-date {
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+.notices-container {
+  background-color: #eef7ff;
+  border-radius: 8px;
+}
+
+.notice-item hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+}

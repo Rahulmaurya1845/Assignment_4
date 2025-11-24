@@ -1,0 +1,147 @@
+/* Container styles */
+.academic-year-container {
+  background: #f2f9ff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  margin-top: 24px;
+  margin-left: 5px;
+}
+
+/* Heading styles */
+.academic-year-heading {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #051f3e;
+  margin-bottom: 8px;
+  font-family: Poppins, sans-serif;
+}
+
+/* Details section */
+.academic-year-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: Poppins, sans-serif;
+  font-size: 0.9rem;
+}
+
+/* Section styles */
+.academic-year-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+}
+
+.academic-year-label {
+  font-size: 18px;
+  color: #2094e6;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.academic-year-value {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Button styles */
+.academic-year-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Poppins, sans-serif;
+}
+
+.academic-year-button:hover {
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 1024px) {
+  .academic-year-details {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .academic-year-section {
+    width: 45%;
+  }
+
+  .academic-year-button {
+    width: 60%;
+  }
+}
+
+/* Mobile (portrait) */
+@media (max-width: 768px) {
+  .academic-year-details {
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+  }
+
+  .academic-year-section {
+    width: 100%;
+  }
+
+  .academic-year-button {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .academic-year-label {
+    font-size: 16px;
+  }
+
+  .academic-year-value {
+    font-size: 14px;
+  }
+
+  .academic-year-heading {
+    font-size: 18px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .academic-year-container {
+    padding: 15px;
+    margin-left: 0;
+  }
+
+  .academic-year-details {
+    gap: 10px;
+  }
+
+  .academic-year-label {
+    font-size: 15px;
+  }
+
+  .academic-year-value {
+    font-size: 13px;
+  }
+
+  .academic-year-button {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+}

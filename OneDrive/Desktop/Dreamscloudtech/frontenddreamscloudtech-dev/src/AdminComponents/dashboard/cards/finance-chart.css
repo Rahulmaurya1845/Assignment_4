@@ -1,0 +1,34 @@
+.custom-finance-chart-container {
+  background-color: #EEF7FF !important;
+  border-radius: 12px !important;
+  padding: 12px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  width: 100%;
+  max-width: 600px !important;
+  padding-right: -20px !important;
+  /* margin-right: 20px; */
+}
+
+.custom-finance-chart-container.custom-small {
+  width: 389px !important; /* Adjusted width for smaller charts */
+  padding: 10px !important;
+  padding-right: 100px !important;
+  fontFamily: "Poppins !important"
+}
+
+.custom-finance-chart-title {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+  margin-bottom: 8px !important;
+  margin-top: 4px;
+  font-family: Poppins !important;
+}
+
+.custom-finance-chart-wrapper {
+  height: 580px !important;
+}
+
+.custom-finance-chart-wrapper.custom-small {
+  height: 150px !important;
+}

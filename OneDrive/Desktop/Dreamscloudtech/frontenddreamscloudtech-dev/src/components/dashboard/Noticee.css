@@ -1,0 +1,78 @@
+
+
+.notice-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 24px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  margin: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.notice-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+.notice-content {
+  width: 100%;
+}
+
+.notice-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #2c3e50;
+}
+
+.notice-chip {
+  margin: 8px 0;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.notice-description {
+  font-size: 1rem;
+  margin: 12px 0;
+  color: #555;
+  line-height: 1.5;
+}
+
+.notice-footer {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.notice-creator {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.notice-timestamp {
+  display: block;
+  margin-top: 4px;
+  font-style: italic;
+  color: #999;
+}
+
+.notice-actions {
+  margin-top: 16px;
+}
+
+.edit-button {
+  color: #007bff;
+  transition: color 0.2s ease;
+}
+
+.edit-button:hover {
+  color: #0056b3;
+}

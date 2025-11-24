@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": ["src", "webpack.config.js", "public/serviceWorker.js"]
+}
